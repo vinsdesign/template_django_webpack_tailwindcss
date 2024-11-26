@@ -1,7 +1,7 @@
 const path = require("path");
 
 module.exports = {
-  entry: "./assets/js/index.js", // Entry point untuk JavaScript Anda
+  entry: "./assets/src/js/index.js", // Entry point untuk JavaScript Anda
   output: {
     path: path.resolve(__dirname, "apps/static/src/js"), // Output folder
     filename: "bundle.js", // Nama file hasil
